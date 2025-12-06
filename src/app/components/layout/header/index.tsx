@@ -24,7 +24,7 @@ const Buttons = () => {
               >
                 {theme === "light" ? <Sun />: <MoonStar />}
               </button>
-            </div>n
+            </div>
           
     </div>
   
