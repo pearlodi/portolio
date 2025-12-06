@@ -1,6 +1,5 @@
 "use client";
 
-import { getImgPath } from "@/utils/image";
 import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
@@ -73,7 +72,7 @@ const projects = [
     image: "/images/ayaincuba.png",
     title: "AyaHQ",
     company: "Aya Labs",
-    link: "https://ayahq.com", // replace with actual link if available
+    link: "https://ayahq.com", 
     description:
       "AyaHQ is part of the Aya Hackathons ecosystem, focused on fostering innovation, supporting startups, and connecting organizations. The platform helps grow talent, strengthen tech communities, and provide resources for builders to turn ideas into impactful projects.",
       tech: ["Nextjs","Shadcn","Tailwind","Typescript","Redux"],
@@ -85,7 +84,7 @@ const projects = [
     image: "/images/abittos.png",
     title: "Abittos",
     company: "Abittos Global Services",
-    link: "https://abittoglobal.com/", // replace with actual link if available
+    link: "https://abittoglobal.com/", 
     description:
       "Abittos Global Services provides world-class solutions and expert support to clients across industries. The platform showcases their services and expertise, delivering a polished and professional online presence for the company.",
     tech: ["Javacript","HTML","CSS"],
@@ -95,7 +94,7 @@ const projects = [
     image: "/images/sehembz.png",
     title: "Sehembz",
     company: "Toks net",
-    link: "https://sehembztravels.com/", // replace with actual link if available
+    link: "https://sehembztravels.com/", 
     description:
       "Sehembz is a one-stop travel platform offering tour packages, flight bookings, visa assistance, private jet hire, and more. It helps users explore destinations, plan trips, and create unforgettable travel experiences across 32 cities, trusted by thousands of travelers globally.",
     tech: ["Nextjs","typescript","Shadcn","Tailwind","Apollo client", "Graphql","Zod",],
@@ -106,10 +105,11 @@ const projects = [
     image: "/images/ayaahq.png",
     title: "Ayah Incubation",
     company: "Aya Labs",
-    link: "https://incubation.ayahq.com/", // replace with actual link if available
+    link: "https://incubation.ayahq.com/", 
     description:
       "Ayah HQ is a subset of Aya Hackathons focused on empowering Africa’s next generation of on-chain pioneers. The platform provides guidance, community support, and practical tools to help innovators scale, experiment, and turn blockchain ideas into tangible projects.",
-    tech: ["Next.js"],
+      tech: ["Nextjs","Shadcn","Tailwind","Typescript","Redux"],
+
     gallery: ["/images/projects/incub1.png", "/images/projects/incub2.png", "/images/projects/incub3.png", "/images/projects/incub4.png", "/images/projects/incub5.png"],
 
   },
@@ -117,10 +117,10 @@ const projects = [
     image: "/images/ferrys.png",
     title: "Ferry's",
     company: "Abitto Global Services",
-    link: "https://ferrys.com", // replace with actual link if available
+    link: "https://ferrys.com", 
     description:
       "Ferry's provides reliable and secure boat journeys across Africa’s waters, helping travelers explore destinations safely and conveniently. The platform showcases schedules, deals, and services while highlighting customer satisfaction and trust.",
-    tech: ["TypeScript"],
+    tech:  ["Javacript","HTML","CSS"],
     gallery: ["/images/projects/ferry1.png", "/images/projects/ferry2.png", "/images/projects/ferry3.png", "/images/projects/ferry4.png", "/images/projects/ferry5.png"],
   }
   
@@ -202,7 +202,7 @@ const LatestWork = () => {
     <p className="font-medium text-[#080e29]">Visit</p>
     {/* Your content inside */}
     <Image
-      src={getImgPath("/images/icon/right-arrow-icon.svg")}
+      src={("/images/icon/right-arrow-icon.svg")}
       alt="arrow"
       width={30}
       height={30}

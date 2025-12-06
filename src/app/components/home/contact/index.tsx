@@ -6,6 +6,10 @@ import { useState } from "react";
 
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
+import { BsLinkedin } from "react-icons/bs";
+import { FaGithub, FaPhone } from "react-icons/fa6";
+import { RiWhatsappFill } from "react-icons/ri";
+import { BiLogoGmail } from "react-icons/bi";
 
 const Contact = () => {
   const [submitted, setSubmitted] = useState(false);
@@ -155,57 +159,55 @@ const Contact = () => {
 
             <div className="flex flex-col sm:flex-row md:flex-col justify-between gap-5 md:gap-20 items-center md:items-end">
               <div className="flex flex-wrap flex-row md:flex-col items-start md:items-end gap-4 md:gap-6">
-                  <div >
-                    <Link
-                      className="text-base sm:text-lg font-normal text-white hover:text-primary"
-                      onClick={(e) => e.preventDefault()}
-                      href={"#!"}
-                    >
-                      dsds
-                    </Link>
+              <div className="flex items-center justify-center md:justify-end gap-5 md:gap-5">
+                <Link
+                  onClick={(e) => e.preventDefault()}
+                  href={"#!"}
+                >
+                  <BsLinkedin size={24} className="dark:text-[#ff4400]  text-[#080e29]" />
+                </Link>
+                <Link
+                  onClick={(e) => e.preventDefault()}
+                  href={"#!"}
+                >
+                  <FaGithub size={30} className="dark:text-[#ff4400]  text-[#080e29]" />
+                </Link>
+                <Link
+                  onClick={(e) => e.preventDefault()}
+                  href={"#!"}
+                >
+                  <RiWhatsappFill size={30} className="dark:text-[#ff4400]  text-[#080e29]" />
+                </Link>
 
-                    <Link
-                      className="text-base sm:text-lg font-normal text-white hover:text-primary"
-                      onClick={(e) => e.preventDefault()}
-                      href={"#!"}
-                    >
-                      dsds
-                    </Link>
-                    <Link
-                      className="text-base sm:text-lg font-normal text-white hover:text-primary"
-                      onClick={(e) => e.preventDefault()}
-                      href={"#!"}
-                    >
-                      dsds
-                    </Link>
-
-                  </div>
+                
+            </div>
               </div>
 
-              <div className="flex flex-wrap justify-center gap-5 lg:gap-11 items-end">
-                  <div >
-                    <Link
-                      onClick={(e) => e.preventDefault()}
-                      href={"#!"}
-                      className="text-base lg:text-lg text-white font-normal border-b border-black pb-3 hover:text-primary hover:border-primary"
-                    >
-                      dsdf
-                    </Link>
-                    <Link
-                      className="text-base sm:text-lg font-normal text-white hover:text-primary"
-                      onClick={(e) => e.preventDefault()}
-                      href={"#!"}
-                    >
-                      dsds
-                    </Link>
-                    <Link
-                      className="text-base sm:text-lg font-normal text-white hover:text-primary"
-                      onClick={(e) => e.preventDefault()}
-                      href={"#!"}
-                    >
-                      dsds
-                    </Link>
-                  </div>
+              <div>
+              <div className="flex flex-wrap items-center justify-center md:justify-start gap-1.5 md:gap-5 lg:gap-11">
+            <Link
+                    onClick={(e) => e.preventDefault()}
+                    href={"#!"}
+                    className="flex items-center gap-1 lg:gap-2 text-sm md:text-base"
+                  >
+                   <BiLogoGmail className="dark:text-[#ff4400] text-lg lg:text-[28px] text-[#080e29]"/>
+                    <h6 className="text-sm  xl:text-xl hover:text-primary">
+                   pearlodi7@gmail.com
+                    </h6>
+                  </Link>
+                  <Link
+                    onClick={(e) => e.preventDefault()}
+                    href={"#!"}
+                    className="flex items-center gap-1 text-sm md:text-base"
+                  >
+                    <FaPhone  className="dark:text-[#ff4400] text-sm lg:text-[28px] text-[#080e29]"/>
+                   
+                    <h6 className="text-sm  xl:text-xl hover:text-primary">
+                     +234 903 724 8116
+                    </h6>
+                  </Link>
+            </div>
+
               </div>
             </div>          </div>
         </div>

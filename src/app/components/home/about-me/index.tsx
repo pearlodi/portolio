@@ -23,10 +23,10 @@ const AboutMe = () => {
               <p className="text-xl dark:text-[#ff4400]">( 01 )</p>
             </div>
 
-            <div className="pt-10 xl:pt-16 flex gap-10 items-center justify-between">
+            <div className="pt-10 xl:pt-16 lg:flex flex-col-reverse lg:flex-row flex gap-10 items-center justify-between">
               <div
                 data-aos="zoom-in"
-                className="w-[400px] h-[500px] rounded-full hidden lg:flex overflow-hidden"
+                className="w-full lg:w-[400px] h-[500px] rounded-full  lg:flex overflow-hidden"
               >
                 <Image
                   src={("/images/home/girlie.png")}
@@ -38,7 +38,7 @@ const AboutMe = () => {
               </div>
 
               <div className="w-full lg:max-w-2xl flex-1">
-                <p className="dark:text-[#080e29] font-bold text-4xl">
+                <p className="text-[#080e29] font-bold text-4xl">
                   Frontend & Mobile developer
                 </p>
                 <p className="text-[#080e29] mt-3">

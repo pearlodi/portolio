@@ -6,15 +6,23 @@ import { ImageCarousel } from "./Carousel";
 const index = () => {
   return (
     <div>
-      <section className="relative  hero-section mx-auto w-full overflow-hidden h-[75vh] 2xl:h-[800px]">
+      <section className="relative  hero-section mx-auto w-full overflow-hidden h-screen lg:h-[75vh] 2xl:h-[800px]">
         <div className="2xl:flex items-center justify-center  ">
           <div className="sm:px-24 px-7">
             <div className="lg:flex mt-10 grid grid-cols-1 sm:grid-cols-2 gap-7 md:gap-4 2xl:flex items-center">
               <div className="flex flex-col gap-4 md:gap-7 max-w-2xl">
                 <div>
-                  <div className="borders resume-btn liquid text-[black] dark:bg-transparent w-fit px-12 dark:text-white rounded-full py-4">
-                    Download PDF Resume
-                  </div>
+                 
+                  <a
+  href="/pearlresume.pdf"
+  download
+  className="relative overflow-hidden cursor-pointer w-fit py-2 sm:py-3 md:py-5 px-4 sm:px-5 md:px-7 border border-primary rounded-full group"
+>
+  <div className="borders resume-btn liquid bg-transparent w-fit px-12 text-white rounded-full py-4">
+    Download Resume
+  </div>
+</a>
+
                   <div className="flex  mt-12 items-center gap-8">
                     <h1>I'm Pearl</h1>
 
@@ -58,6 +66,9 @@ const index = () => {
             className="block lg:hidden"
           /> */}
             </div>
+          </div>
+          <div className="lg:hidden right-0 top-0  h-[500px] mt-8 w-full ">
+            <ImageCarousel />
           </div>
           <div className="hidden 2xl:hidden absolute right-0 top-0  h-auto w-1/2 lg:block 2xl:h-171.5 2xl:w-187.5">
             <ImageCarousel />

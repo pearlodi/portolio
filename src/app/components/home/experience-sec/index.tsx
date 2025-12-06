@@ -1,36 +1,40 @@
 import React from 'react';
-
 const ExperienceSec = () => {
     const experiences = [
-        {
-            year: "2022",
-            title: "Frontend Developer",
-            company: "Abitto Global",
-            type: "Intern",
-            description: "Suffered alteration in some form by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum"
-        },
-        {
-            year: "2023",
-            title: "Frontend",
-            company: "Ownage Fiditech LLC",
-            type: "Intern",
-            description: "Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem"
-        },
-        {
-            year: "2024+",
-            title: "Frontend & Mobile Developer",
-            company: "Toks Net",
-            type: "Fulltime",
-            description: "Handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated"
-        },
-        {
-            year: "2024+",
-            title: "Frontend developer",
-            company: "Aya hq",
-            type: "Contract (3 months)",
-            description: "Release of Letraset sheets containing Lorem Ipsum passages and more recently with desktop publishing software"
-        }
+      {
+        year: "2022",
+        title: "Frontend Developer",
+        company: "Abitto Global",
+        type: "Intern",
+        description:
+          "Built responsive web interfaces from design files, integrated APIs, and collaborated with designers and backend developers to deliver production-ready features."
+      },
+      {
+        year: "2023",
+        title: "Frontend Developer",
+        company: "Ownage Fiditech LLC",
+        type: "Intern",
+        description:
+          "Developed and optimized user interfaces with React and Vue, working closely with design and backend teams to ensure performance and cross-device consistency."
+      },
+      {
+        year: "2024+",
+        title: "Frontend & Mobile Developer",
+        company: "Toks Net",
+        type: "Full-time",
+        description:
+          "Develop and maintain web and mobile applications, building interfaces from scratch and integrating backend services to deliver scalable, user-focused products."
+      },
+      {
+        year: "2024+",
+        title: "Frontend Developer",
+        company: "Aya HQ",
+        type: "Contract (3 months)",
+        description:
+          "Assisted the frontend lead in building platform features, creating reusable components, improving responsiveness, and integrating backend services using modern tools."
+      }
     ];
+  
 
     return (
         <section>
