@@ -6,7 +6,7 @@ import { ImageCarousel } from "./Carousel";
 const index = () => {
   return (
     <div>
-      <section className="relative  hero-section mx-auto w-full overflow-hidden h-screen lg:h-[75vh] 2xl:h-[800px]">
+      <section className="relative  hero-section mx-auto w-full overflow-hidden h-full lg:h-[75vh] 2xl:h-[800px]">
         <div className="2xl:flex items-center justify-center  ">
           <div className="sm:px-24 px-7">
             <div className="lg:flex mt-10 grid grid-cols-1 sm:grid-cols-2 gap-7 md:gap-4 2xl:flex items-center">
@@ -52,7 +52,7 @@ const index = () => {
                     />
                   </div>
                 </div>
-                <p className="font-normal w-[90%] text-black dark:text-white max-w-md xl:max-w-xl">
+                <p className="font-normal lg:w-[90%] text-black dark:text-white max-w-md xl:max-w-xl">
                   I enjoy blending creativity and code to build clean,
                   functional software experiences focused on performance,
                   usability, and clarity.
@@ -67,7 +67,7 @@ const index = () => {
           /> */}
             </div>
           </div>
-          <div className="lg:hidden right-0 top-0  h-[500px] mt-8 w-full ">
+          <div className="lg:hidden right-0 top-0   mt-8 w-full ">
             <ImageCarousel />
           </div>
           <div className="hidden 2xl:hidden absolute right-0 top-0  h-auto w-1/2 lg:block 2xl:h-171.5 2xl:w-187.5">

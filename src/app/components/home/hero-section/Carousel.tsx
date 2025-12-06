@@ -58,31 +58,31 @@ const images = [
 export function ImageCarousel() {
   return (
     <Carousel
-      plugins={[
-        Autoplay({
-          delay: 2500,
-          stopOnInteraction: false,
-        }),
-      ]}
+      // plugins={[
+      //   Autoplay({
+      //     delay: 2500,
+      //     stopOnInteraction: false,
+      //   }),
+      // ]}
       opts={{
         align: "start",
         loop: true,
       }}
-      className="w-full max-w-3xl fade-carousel"
+      className="w-full lg:max-w-3xl fade-carousel"
     >
       <CarouselContent>
         {images.map((item, index) => (
           <CarouselItem key={index} className="basis-full">
             {/* ✅ group added here for hover */}
             <div className="p-1 group">
-              <Card className="!p-0 rounded-[20px] relative overflow-hidden">
+              <Card className="!p-0 rounded-[20px] h-[300px] lg:h-full relative overflow-hidden">
                 <CardContent className="flex aspect-square items-center justify-center p-0">
                   <Image
                     src={(item.image)}
                     alt={`carousel-img-${index}`}
                     width={450}
                     height={450}
-                    className="object-contain rounded-[20px] w-full "
+                    className="lg:object-contain object-contain rounded-[20px] w-full "
                   />
                 </CardContent>
 
@@ -91,7 +91,7 @@ export function ImageCarousel() {
                   href={item.link}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="absolute  hidden h-[75vh] 2xl:h-[800px] group-hover:flex
+                  className="absolute  hidden h-full lg:h-[75vh] 2xl:h-[800px] group-hover:flex
                    justify-center w-full items-center
                     backdrop-blur-xs bg-primary/15 rounded-[20px]"
                 >
