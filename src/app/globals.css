@@ -3,6 +3,7 @@
 /* @import "tw-animate-css"; */
 /* styles/globals.css */
 @import 'aos/dist/aos.css';
+@tailwind utilities;
 
 @custom-variant dark (&:is(.dark *));
 
