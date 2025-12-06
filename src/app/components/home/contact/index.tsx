@@ -1,6 +1,5 @@
 "use client";
 
-import { getImgPath } from "@/utils/image";
 import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
@@ -131,7 +130,7 @@ const Contact = () => {
                 {submitted && (
                   <div className="flex items-center gap-2">
                     <Image
-                      src={getImgPath("/images/icon/success-icon.svg")}
+                      src={("/images/icon/success-icon.svg")}
                       alt="success-icon"
                       width={30}
                       height={30}

@@ -14,7 +14,6 @@ import {
   CarouselPrevious,
 } from "@/components/ui/carousel";
 
-import { getImgPath } from "@/utils/image";
 
 // ✅ ONLY CHANGE: image + link together
 const images = [
@@ -79,7 +78,7 @@ export function ImageCarousel() {
               <Card className="!p-0 rounded-[20px] relative overflow-hidden">
                 <CardContent className="flex aspect-square items-center justify-center p-0">
                   <Image
-                    src={getImgPath(item.image)}
+                    src={(item.image)}
                     alt={`carousel-img-${index}`}
                     width={450}
                     height={450}

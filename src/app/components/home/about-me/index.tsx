@@ -1,4 +1,3 @@
-import { getImgPath } from "@/utils/image";
 import Image from "next/image";
 
 const AboutMe = () => {
@@ -7,7 +6,7 @@ const AboutMe = () => {
       <div className="relative bg-softGray py-10 md:py-32">
         <div className="absolute top-0 w-full px-9">
           <Image
-            src={getImgPath("/images/home/about-me/resume-bg-img.svg")}
+            src={("/images/home/about-me/resume-bg-img.svg")}
             alt="resume-bg-img"
             width={1200}
             height={348}
@@ -30,7 +29,7 @@ const AboutMe = () => {
                 className="w-[400px] h-[500px] rounded-full hidden lg:flex overflow-hidden"
               >
                 <Image
-                  src={getImgPath("/images/home/girlie.png")}
+                  src={("/images/home/girlie.png")}
                   alt="about-banner"
                   width={500}
                   height={440}
@@ -70,7 +69,7 @@ const AboutMe = () => {
                 <div className="pt-8 xl:pt-14 flex flex-col sm:flex-row items-center gap-4">
                   {/* <div className="flex items-center gap-3.5">
                     <Image
-                      src={getImgPath("/images/icon/lang-icon.svg")}
+                      src={("/images/icon/lang-icon.svg")}
                       alt="lang-icon"
                       width={30}
                       height={30}

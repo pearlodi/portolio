@@ -1,5 +1,4 @@
 "use client";
-import { getImgPath } from "@/utils/image";
 import Image from "next/image";
 import { Typewriter } from "react-simple-typewriter";
 import { ImageCarousel } from "./Carousel";
@@ -21,7 +20,7 @@ const index = () => {
 
                     <div className="wave">
                       <Image
-                        src={getImgPath("/images/home/banner/wave-icon.svg")}
+                        src={("/images/home/banner/wave-icon.svg")}
                         alt="wave-icon"
                         width={62}
                         height={62}
@@ -52,7 +51,7 @@ const index = () => {
                 </p>
               </div>
               {/* <Image
-            src={getImgPath("/images/home/banner/banner-img.png")}
+            src={("/images/home/banner/banner-img.png")}
             alt="banner-img"
             width={685}
             height={650}

@@ -1,5 +1,5 @@
 "use client";
-import { getDataPath, getImgPath } from "@/utils/image";
+import { getDataPath,  } from "@/utils/image";
 import Image from "next/image";
 import { useEffect, useState } from "react";
 
@@ -46,7 +46,7 @@ const EducationSkills = () => {
       <div className="border-t border-softGray overflow-hidden">
         <div className="container relative z-10">
           <Image
-            src={getImgPath(
+            src={(
               "/images/home/education-skill/edu-skill-vector.svg"
             )}
             alt="vector"
@@ -71,7 +71,7 @@ const EducationSkills = () => {
                     >
                       <div  data-aos="zoom-in"  className="flex flex-col items-center gap-5">
                         <Image
-                          src={getImgPath(value?.icon)}
+                          src={(value?.icon)}
                           alt="icon"
                           width={70}
                           height={70}
