@@ -67,9 +67,9 @@ const index = () => {
           /> */}
             </div>
           </div>
-          <div className="lg:hidden right-0 top-0   mt-8 w-full ">
+          {/* <div className="lg:hidden right-0 top-0   mt-8 w-full ">
             <ImageCarousel />
-          </div>
+          </div> */}
           <div className="hidden 2xl:hidden absolute right-0 top-0  h-auto w-1/2 lg:block 2xl:h-171.5 2xl:w-187.5">
             <ImageCarousel />
           </div>
