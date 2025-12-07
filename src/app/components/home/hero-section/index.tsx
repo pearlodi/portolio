@@ -18,8 +18,8 @@ const index = () => {
   download
   className="relative overflow-hidden cursor-pointer w-fit py-2 sm:py-3 md:py-5 px-4 sm:px-5 md:px-7 border border-primary rounded-full group"
 >
-  <div className="borders resume-btn liquid bg-transparent w-fit px-12 text-white rounded-full py-4">
-    Download Resume
+  <div className="borders resume-btn liquid bg-transparent w-fit px-12  rounded-full py-4">
+    Download my resume
   </div>
 </a>
 

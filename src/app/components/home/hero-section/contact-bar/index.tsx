@@ -38,49 +38,49 @@ const ContactBar = () => {
           <div className="flex flex-col sm:flex-row items-center justify-between gap-4 py-6 md:py-7">
             {/* Contact Items */}
             <div className="flex flex-wrap items-center justify-center md:justify-start gap-1.5 md:gap-5 lg:gap-11">
-            <Link
-                    onClick={(e) => e.preventDefault()}
-                    href={"#!"}
-                    className="flex items-center gap-1 lg:gap-2 text-sm md:text-base"
-                  >
-                   <BiLogoGmail className="dark:text-[#ff4400] text-lg lg:text-[28px] text-[#080e29]"/>
-                    <h6 className="text-sm  xl:text-xl hover:text-primary">
-                   pearlodi7@gmail.com
-                    </h6>
-                  </Link>
-                  <Link
-                    onClick={(e) => e.preventDefault()}
-                    href={"#!"}
+            <a
+  href="mailto:pearlodi7@gmail.com"
+  className="flex items-center gap-1 lg:gap-2 text-sm md:text-base"
+>
+  <BiLogoGmail className="dark:text-[#ff4400] text-lg lg:text-[28px]" />
+  <h6 className="text-sm xl:text-xl dark:text-white">
+    pearlodi7@gmail.com
+  </h6>
+</a>
+
+                  <div
                     className="flex items-center gap-1 text-sm md:text-base"
                   >
-                    <FaPhone  className="dark:text-[#ff4400] text-sm lg:text-[28px] text-[#080e29]"/>
+                    <FaPhone  className="dark:text-[#ff4400] text-sm lg:text-[28px] "/>
                    
-                    <h6 className="text-sm  xl:text-xl hover:text-primary">
+                    <h6 className="text-sm  xl:text-xl dark:text-white ">
                      +234 903 724 8116
                     </h6>
-                  </Link>
+                  </div>
             </div>
 
             {/* Social Items */}
             <div className="flex items-center justify-center md:justify-end gap-5 md:gap-5">
+            <a
+                  href={"https://www.linkedin.com/in/odipearl/"}
+                  target="_blank"
+                >
+                  <BsLinkedin size={24} className="dark:text-[#ff4400]  " />
+                </a>
                 <Link
                   onClick={(e) => e.preventDefault()}
-                  href={"#!"}
+                  href={"https://github.com/pearlodi"}
                 >
-                  <BsLinkedin size={24} className="dark:text-[#ff4400]  text-[#080e29]" />
+                  <FaGithub size={30} className="dark:text-[#ff4400]  " />
                 </Link>
-                <Link
-                  onClick={(e) => e.preventDefault()}
-                  href={"#!"}
-                >
-                  <FaGithub size={30} className="dark:text-[#ff4400]  text-[#080e29]" />
-                </Link>
-                <Link
-                  onClick={(e) => e.preventDefault()}
-                  href={"#!"}
-                >
-                  <RiWhatsappFill size={30} className="dark:text-[#ff4400]  text-[#080e29]" />
-                </Link>
+                <a
+  href="https://wa.me/2347041240169"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="cursor-pointer"
+>
+  <RiWhatsappFill size={30} className="dark:text-[#ff4400]" />
+</a>
 
                 
             </div>

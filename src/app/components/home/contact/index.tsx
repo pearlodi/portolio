@@ -78,7 +78,7 @@ const Contact = () => {
                       value={formData.name}
                       onChange={handleChange}
                       placeholder="Enter your name"
-                      className="rounded-full "
+                      className="rounded-full bg-[white]  border-white border"
                     />
                   </div>
 
@@ -93,7 +93,7 @@ const Contact = () => {
                       required
                       value={formData.number}
                       onChange={handleChange}
-                      className="rounded-full "
+                      className="rounded-full bg-[white]  border-white border"
                       placeholder="Enter your phone number"
                     />
                   </div>
@@ -109,7 +109,7 @@ const Contact = () => {
                     type="email"
                     required
                     value={formData.email}
-                    className="rounded-full "
+                    className="rounded-full bg-[white]  border-white border"
                     onChange={handleChange}
                     placeholder="Enter your email"
                   />
@@ -124,7 +124,7 @@ const Contact = () => {
                     name="message"
                     required
                     value={formData.message}
-                    className="rounded-full "
+                    className="rounded-full bg-[white]  border-white border"
                     onChange={handleChange}
                     placeholder="Enter your message"
                     rows={4}
@@ -148,9 +148,9 @@ const Contact = () => {
 
                 <button
                   type="submit"
-                  className="relative overflow-hidden cursor-pointer w-fit  border border-primary rounded-full group"
+                  className="relative overflow-hidden cursor-pointer w-fit  border rounded-full   "
                 >
-                  <div className="borders resume-btn liquid bg-transparent w-fit px-12 text-white rounded-full py-4">
+                  <div className="borders py-2 resume-btn liquid bg-transparent w-fit px-12 text-white rounded-full  border-white borderpy-4">
                     Send now
                   </div>
                 </button>
@@ -160,24 +160,27 @@ const Contact = () => {
             <div className="flex flex-col sm:flex-row md:flex-col justify-between gap-5 md:gap-20 items-center md:items-end">
               <div className="flex flex-wrap flex-row md:flex-col items-start md:items-end gap-4 md:gap-6">
               <div className="flex items-center justify-center md:justify-end gap-5 md:gap-5">
+                <a
+                  href={"https://www.linkedin.com/in/odipearl/"}
+                  target="_blank"
+                >
+                  <BsLinkedin size={24} className="text-[#ff4400]  " />
+                </a>
                 <Link
                   onClick={(e) => e.preventDefault()}
-                  href={"#!"}
+                  href={"https://github.com/pearlodi"}
                 >
-                  <BsLinkedin size={24} className="dark:text-[#ff4400]  text-[#080e29]" />
+                  <FaGithub size={30} className="text-[#ff4400]  " />
                 </Link>
-                <Link
-                  onClick={(e) => e.preventDefault()}
-                  href={"#!"}
-                >
-                  <FaGithub size={30} className="dark:text-[#ff4400]  text-[#080e29]" />
-                </Link>
-                <Link
-                  onClick={(e) => e.preventDefault()}
-                  href={"#!"}
-                >
-                  <RiWhatsappFill size={30} className="dark:text-[#ff4400]  text-[#080e29]" />
-                </Link>
+                <a
+  href="https://wa.me/2347041240169"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="cursor-pointer"
+>
+  <RiWhatsappFill size={30} className="text-[#ff4400]" />
+</a>
+
 
                 
             </div>
@@ -185,27 +188,25 @@ const Contact = () => {
 
               <div>
               <div className="flex flex-wrap items-center justify-center md:justify-start gap-1.5 md:gap-5 lg:gap-11">
-            <Link
-                    onClick={(e) => e.preventDefault()}
-                    href={"#!"}
-                    className="flex items-center gap-1 lg:gap-2 text-sm md:text-base"
-                  >
-                   <BiLogoGmail className="dark:text-[#ff4400] text-lg lg:text-[28px] text-[#080e29]"/>
-                    <h6 className="text-sm  xl:text-xl hover:text-primary">
-                   pearlodi7@gmail.com
-                    </h6>
-                  </Link>
-                  <Link
-                    onClick={(e) => e.preventDefault()}
-                    href={"#!"}
+              <a
+  href="mailto:pearlodi7@gmail.com"
+  className="flex items-center gap-1 lg:gap-2 text-sm md:text-base"
+>
+  <BiLogoGmail className="text-[#ff4400] text-lg lg:text-[28px]" />
+  <h6 className="text-sm xl:text-xl text-white">
+    pearlodi7@gmail.com
+  </h6>
+</a>
+
+                  <div
                     className="flex items-center gap-1 text-sm md:text-base"
                   >
-                    <FaPhone  className="dark:text-[#ff4400] text-sm lg:text-[28px] text-[#080e29]"/>
+                    <FaPhone  className="text-[#ff4400] text-sm lg:text-[28px] "/>
                    
-                    <h6 className="text-sm  xl:text-xl hover:text-primary">
+                    <h6 className="text-sm  xl:text-xl text-white ">
                      +234 903 724 8116
                     </h6>
-                  </Link>
+                  </div>
             </div>
 
               </div>

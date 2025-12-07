@@ -58,12 +58,12 @@ const images = [
 export function ImageCarousel() {
   return (
     <Carousel
-      // plugins={[
-      //   Autoplay({
-      //     delay: 2500,
-      //     stopOnInteraction: false,
-      //   }),
-      // ]}
+      plugins={[
+        Autoplay({
+          delay: 2500,
+          stopOnInteraction: false,
+        }),
+      ]}
       opts={{
         align: "start",
         loop: true,

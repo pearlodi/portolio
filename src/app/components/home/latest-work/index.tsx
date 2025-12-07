@@ -48,7 +48,7 @@ const projects = [
   {
     image: "/images/aedion.png",
     title: "AedionAI",
-    company: "Aedion",
+    company: "Toks net",
     link: "https://aedionai-website-y0cl.onrender.com/",
     description:
       "AedionAI is a health companion that provides AI-powered scans and real-time chat to deliver instant health insights. It helps users monitor symptoms, understand warning signs, and track daily health behaviors. The platform also includes a mobile app built with React Native for on-the-go access.",
@@ -60,7 +60,7 @@ const projects = [
   {
     image: "/images/zeta.png",
     title: "Zeta Brent Education",
-    company: "Zeta",
+    company: "Toks net",
     link: "https://zetabrenteducation.com",
     description:
       "Zeta Brent Education helps students find their dream schools abroad. From admissions to accommodation, the platform supports students in exploring opportunities, connecting with counselors, and accessing over 300 schools. Trusted by more than 1,000 students, it simplifies the journey to academic success.",
@@ -82,7 +82,7 @@ const projects = [
 ,  
   {
     image: "/images/abittos.png",
-    title: "Abittos",
+    title: "Abitto",
     company: "Abittos Global Services",
     link: "https://abittoglobal.com/", 
     description:
