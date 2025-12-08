@@ -103,7 +103,7 @@ const projects = [
   },
   {
     image: "/images/ayaahq.png",
-    title: "Ayah Incubation",
+    title: "Aya Incubation",
     company: "Aya Labs",
     link: "https://incubation.ayahq.com/", 
     description:
@@ -137,7 +137,7 @@ const LatestWork = () => {
             {/* Header */}
             <div className="flex items-center justify-between gap-2 border-b border-black pb-7 mb-9 md:mb-16">
               <h2 className="dark:text-[#080e29]">Latest Works</h2>
-              <p className="text-xl text-orange-500">( 04 )</p>
+              <p className="text-xl text-[#c726a4]">( 04 )</p>
             </div>
 
             {/* ------ GRID REMAINS THE SAME ------ */}
@@ -171,7 +171,7 @@ const LatestWork = () => {
                             width="64"
                             height="64"
                             rx="32"
-                            fill="#FE4300"
+                            fill="#c726a4"
                           />
                           <path
                             d="M25.6667 25.3333H39M39 25.3333V38.6666M39 25.3333L25.6667 38.6666"
@@ -281,7 +281,7 @@ const LatestWork = () => {
                       </CarouselItem>
                     ))}
                   </CarouselContent>
-                  <CarouselPrevious className="b text-white bg-[#ff4400] hover:bg-orange-600 border-none -left-0" />
+                  <CarouselPrevious className="b text-white bg-[#c726a4] hover:bg-orange-600 border-none -left-0" />
                   <CarouselNext className="bg-orange-500 text-white hover:bg-orange-600 border-none -right-0" />
                 </Carousel>
               </div>

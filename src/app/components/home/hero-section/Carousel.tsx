@@ -108,7 +108,7 @@ export function ImageCarousel() {
                         width="64"
                         height="64"
                         rx="32"
-                        fill="#FE4300"
+                        fill="#c726a4"
                       />
                       <path
                         d="M25.6667 25.3333H39M39 25.3333V38.6666M39 25.3333L25.6667 38.6666"

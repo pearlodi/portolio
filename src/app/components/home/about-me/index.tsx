@@ -20,7 +20,7 @@ const AboutMe = () => {
               <h2 data-aos="fade-down" className="dark:text-[#080e29]">
                 About Me
               </h2>
-              <p className="text-xl dark:text-[#ff4400]">( 01 )</p>
+              <p className="text-xl dark:text-[#c726a4]">( 01 )</p>
             </div>
 
             <div className="pt-10 xl:pt-16 lg:flex flex-col-reverse lg:flex-row flex gap-10 items-center justify-between">
@@ -42,7 +42,7 @@ const AboutMe = () => {
                   Frontend & Mobile developer
                 </p>
                 <p className="text-[#080e29] mt-3">
-                  <strong>Hi, i'm Odi Pearl</strong><br/>
+                  <strong >Hi, i'm Odi Pearl</strong><br/>
                   I build front-end interfaces that are clean, functional, and
                   easy to use. I take designs from Figma and bring them to life,
                   making sure they actually feel good to use. I enjoy

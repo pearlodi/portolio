@@ -42,7 +42,7 @@ const ContactBar = () => {
   href="mailto:pearlodi7@gmail.com"
   className="flex items-center gap-1 lg:gap-2 text-sm md:text-base"
 >
-  <BiLogoGmail className="dark:text-[#ff4400] text-lg lg:text-[28px]" />
+  <BiLogoGmail className="dark:text-[#c726a4] text-lg lg:text-[28px]" />
   <h6 className="text-sm xl:text-xl dark:text-white">
     pearlodi7@gmail.com
   </h6>
@@ -51,7 +51,7 @@ const ContactBar = () => {
                   <div
                     className="flex items-center gap-1 text-sm md:text-base"
                   >
-                    <FaPhone  className="dark:text-[#ff4400] text-sm lg:text-[28px] "/>
+                    <FaPhone  className="dark:text-[#c726a4] text-sm lg:text-[28px] "/>
                    
                     <h6 className="text-sm  xl:text-xl dark:text-white ">
                      +234 903 724 8116
@@ -65,13 +65,13 @@ const ContactBar = () => {
                   href={"https://www.linkedin.com/in/odipearl/"}
                   target="_blank"
                 >
-                  <BsLinkedin size={24} className="dark:text-[#ff4400]  " />
+                  <BsLinkedin size={24} className="dark:text-[#c726a4]  " />
                 </a>
                 <Link
                   onClick={(e) => e.preventDefault()}
                   href={"https://github.com/pearlodi"}
                 >
-                  <FaGithub size={30} className="dark:text-[#ff4400]  " />
+                  <FaGithub size={30} className="dark:text-[#c726a4]  " />
                 </Link>
                 <a
   href="https://wa.me/2347041240169"
@@ -79,7 +79,7 @@ const ContactBar = () => {
   rel="noopener noreferrer"
   className="cursor-pointer"
 >
-  <RiWhatsappFill size={30} className="dark:text-[#ff4400]" />
+  <RiWhatsappFill size={30} className="dark:text-[#c726a4]" />
 </a>
 
                 

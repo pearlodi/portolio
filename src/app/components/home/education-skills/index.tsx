@@ -47,7 +47,7 @@ const EducationSkills = () => {
         <div className="container relative z-10">
           <Image
             src={(
-              "/images/home/education-skill/edu-skill-vector.svg"
+              "/images/home/education-skill/uuu.png"
             )}
             alt="vector"
             width={260}
@@ -56,8 +56,8 @@ const EducationSkills = () => {
           />
           <div className="relative z-10 py-16 md:py-32">
             <div className="flex items-center justify-between gap-2 border-b border-black pb-7 mb-9 xl:mb-16">
-              <h2  data-aos="fade-down" > Skills & Stacks</h2>
-              <p className="text-xl text-orange-500">( 03 )</p>
+              <h2  data-aos="fade-down" className="text-[#c726a4]" > Skills & Stacks</h2>
+              <p className="text-xl text-[white]">( 03 )</p>
             </div>
             <div className="flex flex-col lg:flex-row items-center gap-10 xl:gap-20">
             
@@ -93,7 +93,7 @@ const EducationSkills = () => {
                               width="9"
                               height="9"
                               rx="4.5"
-                              fill={i < value?.rating ? "#FE4300" : "#C0D8E0"}
+                              fill={i < value?.rating ? "#c726a4" : "#C0D8E0"}
                             />
                           </svg>
                         ))}

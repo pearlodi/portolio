@@ -41,8 +41,8 @@ const ExperienceSec = () => {
             <div className="py-16 md:py-32">
                 <div className="container mx-auto px-4">
                     <div className="flex items-center justify-between gap-2 border-b border-black pb-7 mb-9 md:mb-16">
-                        <h2  data-aos="fade-down" className=''>Experience</h2>
-                        <p className="text-xl text-[#ff4400]">( 02 )</p>
+                        <h2  data-aos="fade-down" className='text-[#c726a4]'>Experience</h2>
+                        <p className="text-xl text-[white]">( 02 )</p>
                     </div>
 
                     <div className="space-y-7 md:space-y-12">

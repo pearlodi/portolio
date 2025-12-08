@@ -28,7 +28,7 @@ const index = () => {
 
                     <div className="wave">
                       <Image
-                        src={("/images/home/banner/wave-icon.svg")}
+                        src={("/images/home/banner/waves.png")}
                         alt="wave-icon"
                         width={62}
                         height={62}

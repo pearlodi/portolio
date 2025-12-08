@@ -57,10 +57,10 @@ const Contact = () => {
       <div className="container">
         <div className="pt-16 md:pt-32 pb-20">
           <div className="flex items-center justify-between gap-2 border-b border-black pb-7 mb-9 md:mb-16">
-            <h2 data-aos="fade-down" className="text-[#ff4400]">
+            <h2 data-aos="fade-down" className="text-[#c726a4]">
               Contact Me
             </h2>
-            <p className="text-xl text-[#ff4400]">( 05 )</p>
+            <p className="text-xl text-[#c726a4]">( 05 )</p>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
@@ -164,13 +164,13 @@ const Contact = () => {
                   href={"https://www.linkedin.com/in/odipearl/"}
                   target="_blank"
                 >
-                  <BsLinkedin size={24} className="text-[#ff4400]  " />
+                  <BsLinkedin size={24} className="text-[#c726a4]  " />
                 </a>
                 <Link
                   onClick={(e) => e.preventDefault()}
                   href={"https://github.com/pearlodi"}
                 >
-                  <FaGithub size={30} className="text-[#ff4400]  " />
+                  <FaGithub size={30} className="text-[#c726a4]  " />
                 </Link>
                 <a
   href="https://wa.me/2347041240169"
@@ -178,7 +178,7 @@ const Contact = () => {
   rel="noopener noreferrer"
   className="cursor-pointer"
 >
-  <RiWhatsappFill size={30} className="text-[#ff4400]" />
+  <RiWhatsappFill size={30} className="text-[#c726a4]" />
 </a>
 
 
@@ -192,7 +192,7 @@ const Contact = () => {
   href="mailto:pearlodi7@gmail.com"
   className="flex items-center gap-1 lg:gap-2 text-sm md:text-base"
 >
-  <BiLogoGmail className="text-[#ff4400] text-lg lg:text-[28px]" />
+  <BiLogoGmail className="text-[#c726a4] text-lg lg:text-[28px]" />
   <h6 className="text-sm xl:text-xl text-white">
     pearlodi7@gmail.com
   </h6>
@@ -201,7 +201,7 @@ const Contact = () => {
                   <div
                     className="flex items-center gap-1 text-sm md:text-base"
                   >
-                    <FaPhone  className="text-[#ff4400] text-sm lg:text-[28px] "/>
+                    <FaPhone  className="text-[#c726a4] text-sm lg:text-[28px] "/>
                    
                     <h6 className="text-sm  xl:text-xl text-white ">
                      +234 903 724 8116
