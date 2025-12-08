@@ -66,7 +66,7 @@ const Buttons = () => {
     <>
       {/* ================= MOBILE MENU BUTTON ================= */}
       <div className=" flex items-center   justify-end w-full">
-        <div className="fixed bg-[#080e29] px-2 py-1 rounded-full top-4 mr-2  z-[1000] gap-2 md:hidden">
+        <div className="fixed flex bg-[#080e29] px-2 py-1 rounded-full top-4 mr-2  z-[1000] gap-2 md:hidden">
           {!open && (
             <button
               onClick={() => setOpen(true)}
@@ -78,7 +78,7 @@ const Buttons = () => {
 
           <button
             onClick={() => setTheme(theme === "light" ? "dark" : "light")}
-            className="rounded-full ml-2 bg-gray-200 dark:bg-[#c726a4] p-2"
+            className="rounded-full  bg-gray-200 dark:bg-[#c726a4] p-2"
           >
             {theme === "light" ? <Sun size={18} /> : <MoonStar size={18} />}
           </button>

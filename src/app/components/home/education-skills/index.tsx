@@ -64,7 +64,7 @@ const EducationSkills = () => {
             className="no-print absolute dark:hidden top-0 left-0 transform -translate-y-1/2"
           />
           <div className="relative z-10 py-16 md:py-32">
-            <div className="flex items-center justify-between gap-2 border-b border-black pb-7 mb-9 xl:mb-16">
+            <div className="flex items-center justify-between gap-2 border-b border-black py-7 mb-9 xl:mb-16">
               <h2  data-aos="fade-down" className="text-[#c726a4]" > Skills & Stacks</h2>
               <p className="text-xl text-[white]">( 03 )</p>
             </div>
