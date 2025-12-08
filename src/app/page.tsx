@@ -1,4 +1,5 @@
 import AboutMe from "./components/home/about-me"
+import BlogCarousel from "./components/home/blogs"
 import Contact from "./components/home/contact"
 import EducationSkills from "./components/home/education-skills"
 import ExperienceSec from "./components/home/experience-sec"
@@ -16,6 +17,7 @@ const page = () => {
         <ExperienceSec />
         <EducationSkills />
         <LatestWork />
+        <BlogCarousel/>
         <Contact />
       </main>
     </>

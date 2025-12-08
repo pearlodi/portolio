@@ -53,7 +53,7 @@ const Contact = () => {
   };
 
   return (
-    <section className="no-print bg-[#080e29]">
+    <section id="contact" className="no-print bg-[#080e29]">
       <div className="container">
         <div className="pt-16 md:pt-32 pb-20">
           <div className="flex items-center justify-between gap-2 border-b border-black pb-7 mb-9 md:mb-16">

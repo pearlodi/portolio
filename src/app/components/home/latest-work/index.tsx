@@ -130,7 +130,7 @@ const LatestWork = () => {
   const [selected, setSelected] = useState<any>(null);
 
   return (
-    <section>
+    <section id="projects">
       <div className="bg-softGray">
         <div className="container">
           <div className="py-16 xl:py-32">

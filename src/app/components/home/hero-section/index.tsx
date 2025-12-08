@@ -5,30 +5,29 @@ import { ImageCarousel } from "./Carousel";
 
 const index = () => {
   return (
-    <div>
-      <section className="relative  hero-section mx-auto w-full overflow-hidden h-full lg:h-[75vh] 2xl:h-[800px]">
+    <div id="home">
+      <section className="relative  hero-section mx-auto w-full overflow-hidden h-[75vh] 2xl:h-[800px]">
         <div className="2xl:flex items-center justify-center  ">
           <div className="sm:px-24 px-7">
             <div className="lg:flex mt-10 grid grid-cols-1 sm:grid-cols-2 gap-7 md:gap-4 2xl:flex items-center">
               <div className="flex flex-col gap-4 md:gap-7 max-w-2xl">
                 <div>
-                 
                   <a
-  href="/pearlresume.pdf"
-  download
-  className="relative overflow-hidden cursor-pointer w-fit py-2 sm:py-3 md:py-5 px-4 sm:px-5 md:px-7 border border-primary rounded-full group"
->
-  <div className="borders resume-btn liquid bg-transparent w-fit px-12  rounded-full py-4">
-    Download my resume
-  </div>
-</a>
+                    href="/pearlresume.pdf"
+                    download
+                    className="relative overflow-hidden cursor-pointer w-fit py-2 sm:py-3 md:py-5 px-4 sm:px-5 md:px-7 border border-primary rounded-full group"
+                  >
+                    <div className="borders resume-btn liquid bg-transparent w-fit px-12  rounded-full py-4">
+                      Download my resume
+                    </div>
+                  </a>
 
                   <div className="flex  mt-12 items-center gap-8">
-                    <h1>I'm Pearl</h1>
+                    <h1 className="text-[#080e29]  dark:text-white">I'm Pearl</h1>
 
                     <div className="wave">
                       <Image
-                        src={("/images/home/banner/waves.png")}
+                        src={"/images/home/banner/waves.png"}
                         alt="wave-icon"
                         width={62}
                         height={62}
@@ -36,7 +35,7 @@ const index = () => {
                       />
                     </div>
                   </div>
-                  <div className="text-3xl lg:text-[45px] font-semibold">
+                  <div className="text-3xl dark:text-white text-[#080e29] lg:text-[45px] font-semibold">
                     <Typewriter
                       words={[
                         "Frontend Developer",
@@ -52,7 +51,7 @@ const index = () => {
                     />
                   </div>
                 </div>
-                <p className="font-normal lg:w-[90%] text-black dark:text-white max-w-md xl:max-w-xl">
+                <p className="font-normal leading-6 text-sm lg:text-base lg:w-[90%] text-[#080e29] dark:text-white max-w-md xl:max-w-xl">
                   I enjoy blending creativity and code to build clean,
                   functional software experiences focused on performance,
                   usability, and clarity.

@@ -42,7 +42,7 @@ const EducationSkills = () => {
   ];
   
   return (
-    <section>
+    <section id="skills">
       <div className="border-t border-softGray overflow-hidden">
         <div className="container relative z-10">
           <Image
@@ -52,7 +52,16 @@ const EducationSkills = () => {
             alt="vector"
             width={260}
             height={170}
-            className="no-print absolute top-0 left-0 transform -translate-y-1/2"
+            className="no-print absolute hidden dark:flex top-0 left-0 transform -translate-y-1/2"
+          />
+            <Image
+            src={(
+              "/images/home/education-skill/light.png"
+            )}
+            alt="vector"
+            width={260}
+            height={170}
+            className="no-print absolute dark:hidden top-0 left-0 transform -translate-y-1/2"
           />
           <div className="relative z-10 py-16 md:py-32">
             <div className="flex items-center justify-between gap-2 border-b border-black pb-7 mb-9 xl:mb-16">
