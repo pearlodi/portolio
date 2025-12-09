@@ -117,7 +117,7 @@ const projects = [
     image: "/images/ferrys.png",
     title: "Ferry's",
     company: "Abitto Global Services",
-    link: "https://ferrys.com", 
+    link: "https://abittoferry.com/", 
     description:
       "Ferry's provides reliable and secure boat journeys across Africa’s waters, helping travelers explore destinations safely and conveniently. The platform showcases schedules, deals, and services while highlighting customer satisfaction and trust.",
     tech:  ["Javacript","HTML","CSS"],
