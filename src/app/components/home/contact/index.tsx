@@ -78,7 +78,7 @@ const Contact = () => {
                       value={formData.name}
                       onChange={handleChange}
                       placeholder=" Name"
-                      className="rounded-full bg-[white]  border-white border"
+                      className="rounded-full bg-[#ffffff14]  border-white border"
                     />
                   </div>
 
@@ -93,7 +93,7 @@ const Contact = () => {
                       required
                       value={formData.number}
                       onChange={handleChange}
-                      className="rounded-full bg-[white]  border-white border"
+                      className="rounded-full bg-[#ffffff14]   border-white border"
                       placeholder="Phone number"
                     />
                   </div>
@@ -109,7 +109,7 @@ const Contact = () => {
                     type="email"
                     required
                     value={formData.email}
-                    className="rounded-full bg-[white]  border-white border"
+                    className="rounded-full bg-[#ffffff14]  border-white border"
                     onChange={handleChange}
                     placeholder="Email"
                   />
@@ -124,7 +124,7 @@ const Contact = () => {
                     name="message"
                     required
                     value={formData.message}
-                    className="rounded-full bg-[white]  border-white border"
+                    className="rounded-full bg-[#ffffff14]   border-white border"
                     onChange={handleChange}
                     placeholder="Message"
                     rows={4}

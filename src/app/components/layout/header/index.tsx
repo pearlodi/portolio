@@ -127,7 +127,7 @@ const Buttons = () => {
       </aside>
 
       {/* ================= DESKTOP NAV (UNCHANGED) ================= */}
-      <div className="fixed top-1/2 -translate-y-1/2 left-3 z-[999] hidden md:block">
+      <div className="fixed bg-gray-200 w-11 dark:bg-[#080e29] py-3 px-1 rounded-full top-1/2 -translate-y-1/2 left-3 z-[999] hidden md:block">
         <div className="flex flex-col gap-3">
           {/* Theme Toggle */}
           <div className="group">
@@ -172,7 +172,7 @@ const Buttons = () => {
 />
 
                   </span>
-                  <span className="ml-2 whitespace-nowrap text-sm opacity-0 group-hover:opacity-100 dark:text-white">
+                  <span className={`ml-2 whitespace-nowrap text-sm opacity-0 group-hover:opacity-100 dark:text-white  ` }>
                     {label}
                   </span>
                 </button>

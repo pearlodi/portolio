@@ -22,22 +22,22 @@ const EducationSkills = () => {
   }, []);
 
   const localSkills = [
-    { icon: "/images/logo/react.png", name: "React js", rating: 5 },
-    { icon: "/images/logo/nextjs.png", name: "Next.js", rating: 5 },
-    { icon: "/images/logo/js.png", name: "JavaScript", rating: 5 },
+    { icon: "/images/logo/react.png", name: "React js", rating: 4 },
+    { icon: "/images/logo/nextjs.png", name: "Next.js", rating: 4 },
+    { icon: "/images/logo/js.png", name: "JavaScript", rating: 4 },
     { icon: "/images/logo/typescript.png", name: "TypeScript", rating: 4 },
     { icon: "/images/logo/vue.png", name: "Vue", rating: 4 },
     { icon: "/images/logo/graphql.png", name: "GraphQL", rating: 4 },
 
-    { icon: "/images/logo/apollo.png", name: "Apollo client", rating: 5 },
-    { icon: "/images/logo/nativewind.png", name: "NativeWind", rating: 4 },
-    { icon: "/images/logo/reactnative.png", name: "React Native", rating: 5 },
-    { icon: "/images/logo/expogo.png", name: "Expo", rating: 5 },
+    { icon: "/images/logo/apollo.png", name: "Apollo client", rating: 4 },
+    { icon: "/images/logo/nativewind.png", name: "NativeWind", rating: 3 },
+    { icon: "/images/logo/reactnative.png", name: "React Native", rating: 2 },
+    { icon: "/images/logo/expogo.png", name: "Expo", rating: 2 },
 
     { icon: "/images/logo/github.png", name: "GitHub", rating: 5 },
-    { icon: "/images/logo/shadcn.png", name: "shadcn/ui", rating: 4 },
+    { icon: "/images/logo/shadcn.png", name: "shadcn/ui", rating: 5 },
     { icon: "/images/logo/tailwind.png", name: "Tailwind CSS", rating: 5 },
-    { icon: "/images/logo/zustand.jpeg", name: "Zustand", rating: 5 },
+    { icon: "/images/logo/zustand.jpeg", name: "Zustand", rating: 4 },
     { icon: "/images/logo/redux.png", name: "Redux", rating: 4 },
   ];
   
