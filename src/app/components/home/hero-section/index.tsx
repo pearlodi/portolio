@@ -13,7 +13,7 @@ const index = () => {
               <div className="flex flex-col gap-4 md:gap-7 max-w-2xl">
                 <div>
                   <a
-                    href="/pearlresume.pdf"
+                    href="/pearlportfolio.pdf"
                     download
                     className="relative overflow-hidden cursor-pointer w-fit py-2 sm:py-3 md:py-5 px-4 sm:px-5 md:px-7 border border-primary rounded-full group"
                   >
