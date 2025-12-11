@@ -76,15 +76,15 @@ export function ImageCarousel() {
             {/* ✅ group added here for hover */}
             <div className="p-1 group">
               <Card className="!p-0 rounded-[20px] h-[300px] lg:h-full relative overflow-hidden">
-                <CardContent className="flex aspect-square items-center justify-center p-0">
-                  <Image
-                    src={(item.image)}
-                    alt={`carousel-img-${index}`}
-                    width={450}
-                    height={450}
-                    className="lg:object-contain object-contain rounded-[20px] w-full "
-                  />
-                </CardContent>
+              <CardContent className="relative aspect-square p-0">
+  <Image
+    src={item.image}
+    alt={`carousel-img-${index}`}
+    fill
+    className="object-cover object-top rounded-[20px]"
+  />
+</CardContent>
+
 
                 {/* ✅ hover overlay → link */}
                 <Link

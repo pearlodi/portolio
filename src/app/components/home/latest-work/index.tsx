@@ -21,7 +21,6 @@ import {
 } from "@/components/ui/carousel";
 import { X } from "lucide-react";
 
-
 const projects = [
   {
     image: "/images/aya.png",
@@ -30,8 +29,22 @@ const projects = [
     company: "Aya Labs",
     description:
       "Aya Hackathons is a platform that hosts real-time hackathons and collaborative challenges, helping teams turn ideas into impact. It offers a dynamic hub for participants to explore projects, connect with peers, and engage in competitions that foster innovation and creativity.",
-    tech: ["Next.js", "React", "TypeScript", "Tailwind", "Shadcn", "Zustand","Redux"],
-    gallery: ["/images/projects/aya1.png", "/images/projects/aya2.png", "/images/projects/aya3.png","/images/projects/aya4.png","/images/projects/aya5.png"],
+    tech: [
+      "Next.js",
+      "React",
+      "TypeScript",
+      "Tailwind",
+      "Shadcn",
+      "Zustand",
+      "Redux",
+    ],
+    gallery: [
+      "/images/projects/aya1.png",
+      "/images/projects/aya2.png",
+      "/images/projects/aya3.png",
+      "/images/projects/aya4.png",
+      "/images/projects/aya5.png",
+    ],
   },
   {
     image: "/images/toks.png",
@@ -40,10 +53,15 @@ const projects = [
     link: "https://toks.net.ng/", // replace with actual link if available
     description:
       "ToksNet Africa is the official website for Toks Net, presenting the company’s services, projects, and vision. The site provides an informative and polished overview of the brand for visitors and potential clients.",
-    tech: ["TypeScript", "Shadcn UI", "Nextjs","Tailwind"],
-    gallery: ["/images/projects/toks1.png", "/images/projects/toks2.png", "/images/projects/toks3.png", "/images/projects/toks4.png", "/images/projects/toks5.png"],
+    tech: ["TypeScript", "Shadcn UI", "Nextjs", "Tailwind"],
+    gallery: [
+      "/images/projects/toks1.png",
+      "/images/projects/toks2.png",
+      "/images/projects/toks3.png",
+      "/images/projects/toks4.png",
+      "/images/projects/toks5.png",
+    ],
   },
-  
 
   {
     image: "/images/aedion.png",
@@ -52,11 +70,23 @@ const projects = [
     link: "https://aedionai-website-y0cl.onrender.com/",
     description:
       "AedionAI is a health companion that provides AI-powered scans and real-time chat to deliver instant health insights. It helps users monitor symptoms, understand warning signs, and track daily health behaviors. The platform also includes a mobile app built with React Native for on-the-go access.",
-    tech: ["TypeScript", "Shadcn UI", "Nextjs","Tailwind","Apollo client", "Graphql"],
-    gallery: ["/images/projects/aedion1.png", "/images/projects/aedion2.png", "/images/projects/aedion3.png", "/images/projects/aedion4.png", "/images/projects/aedion5.png"],
-
+    tech: [
+      "TypeScript",
+      "Shadcn UI",
+      "Nextjs",
+      "Tailwind",
+      "Apollo client",
+      "Graphql",
+    ],
+    gallery: [
+      "/images/projects/aedion1.png",
+      "/images/projects/aedion2.png",
+      "/images/projects/aedion3.png",
+      "/images/projects/aedion4.png",
+      "/images/projects/aedion5.png",
+    ],
   },
-  
+
   {
     image: "/images/zeta.png",
     title: "Zeta Brent Education",
@@ -64,66 +94,106 @@ const projects = [
     link: "https://zetabrenteducation.com",
     description:
       "Zeta Brent Education helps students find their dream schools abroad. From admissions to accommodation, the platform supports students in exploring opportunities, connecting with counselors, and accessing over 300 schools. Trusted by more than 1,000 students, it simplifies the journey to academic success.",
-    tech: ["React","Shadcn","Tailwind"],
-    gallery: ["/images/projects/zeta1.png", "/images/projects/zeta2.png", "/images/projects/zeta3.png", "/images/projects/zeta4.png", "/images/projects/zeta5.png"],
+    tech: ["React", "Shadcn", "Tailwind"],
+    gallery: [
+      "/images/projects/zeta1.png",
+      "/images/projects/zeta2.png",
+      "/images/projects/zeta3.png",
+      "/images/projects/zeta4.png",
+      "/images/projects/zeta5.png",
+    ],
   },
-  
+
   {
     image: "/images/ayaincuba.png",
     title: "AyaHQ",
     company: "Aya Labs",
-    link: "https://ayahq.com", 
+    link: "https://ayahq.com",
     description:
       "AyaHQ is part of the Aya Hackathons ecosystem, focused on fostering innovation, supporting startups, and connecting organizations. The platform helps grow talent, strengthen tech communities, and provide resources for builders to turn ideas into impactful projects.",
-      tech: ["Nextjs","Shadcn","Tailwind","Typescript","Redux"],
+    tech: ["Nextjs", "Shadcn", "Tailwind", "Typescript", "Redux"],
 
-    gallery: ["/images/projects/hq1.png", "/images/projects/hq2.png", "/images/projects/hq3.png", "/images/projects/hq4.png", "/images/projects/hq5.png"],
-  }
-,  
+    gallery: [
+      "/images/projects/hq1.png",
+      "/images/projects/hq2.png",
+      "/images/projects/hq3.png",
+      "/images/projects/hq4.png",
+      "/images/projects/hq5.png",
+    ],
+  },
   {
     image: "/images/abittos.png",
     title: "Abitto",
     company: "Abittos Global Services",
-    link: "https://abittoglobal.com/", 
+    link: "https://abittoglobal.com/",
     description:
       "Abittos Global Services provides world-class solutions and expert support to clients across industries. The platform showcases their services and expertise, delivering a polished and professional online presence for the company.",
-    tech: ["Javacript","HTML","CSS"],
-    gallery: ["/images/projects/abitto1.png", "/images/projects/abitto2.png", "/images/projects/abitto3.png", "/images/projects/abitto4.png", "/images/projects/abitto5.png"],
+    tech: ["Javacript", "HTML", "CSS"],
+    gallery: [
+      "/images/projects/abitto1.png",
+      "/images/projects/abitto2.png",
+      "/images/projects/abitto3.png",
+      "/images/projects/abitto4.png",
+      "/images/projects/abitto5.png",
+    ],
   },
   {
     image: "/images/sehembz.png",
     title: "Sehembz",
     company: "Toks net",
-    link: "https://sehembztravels.com/", 
+    link: "https://sehembztravels.com/",
     description:
       "Sehembz is a one-stop travel platform offering tour packages, flight bookings, visa assistance, private jet hire, and more. It helps users explore destinations, plan trips, and create unforgettable travel experiences across 32 cities, trusted by thousands of travelers globally.",
-    tech: ["Nextjs","typescript","Shadcn","Tailwind","Apollo client", "Graphql","Zod",],
-    gallery: ["/images/projects/sehembz1.png", "/images/projects/sehembz2.png", "/images/projects/sehembz3.png", "/images/projects/sehembz4.png", "/images/projects/sehembz5.png"],
-
+    tech: [
+      "Nextjs",
+      "typescript",
+      "Shadcn",
+      "Tailwind",
+      "Apollo client",
+      "Graphql",
+      "Zod",
+    ],
+    gallery: [
+      "/images/projects/sehembz1.png",
+      "/images/projects/sehembz2.png",
+      "/images/projects/sehembz3.png",
+      "/images/projects/sehembz4.png",
+      "/images/projects/sehembz5.png",
+    ],
   },
   {
     image: "/images/ayaahq.png",
     title: "Aya Incubation",
     company: "Aya Labs",
-    link: "https://incubation.ayahq.com/", 
+    link: "https://incubation.ayahq.com/",
     description:
       "Ayah HQ is a subset of Aya Hackathons focused on empowering Africa’s next generation of on-chain pioneers. The platform provides guidance, community support, and practical tools to help innovators scale, experiment, and turn blockchain ideas into tangible projects.",
-      tech: ["Nextjs","Shadcn","Tailwind","Typescript","Redux"],
+    tech: ["Nextjs", "Shadcn", "Tailwind", "Typescript", "Redux"],
 
-    gallery: ["/images/projects/incub1.png", "/images/projects/incub2.png", "/images/projects/incub3.png", "/images/projects/incub4.png", "/images/projects/incub5.png"],
-
+    gallery: [
+      "/images/projects/incub1.png",
+      "/images/projects/incub2.png",
+      "/images/projects/incub3.png",
+      "/images/projects/incub4.png",
+      "/images/projects/incub5.png",
+    ],
   },
   {
     image: "/images/ferrys.png",
     title: "Ferry's",
     company: "Abitto Global Services",
-    link: "https://abittoferry.com/", 
+    link: "https://abittoferry.com/",
     description:
       "Ferry's provides reliable and secure boat journeys across Africa’s waters, helping travelers explore destinations safely and conveniently. The platform showcases schedules, deals, and services while highlighting customer satisfaction and trust.",
-    tech:  ["Javacript","HTML","CSS"],
-    gallery: ["/images/projects/ferry1.png", "/images/projects/ferry2.png", "/images/projects/ferry3.png", "/images/projects/ferry4.png", "/images/projects/ferry5.png"],
-  }
-  
+    tech: ["Javacript", "HTML", "CSS"],
+    gallery: [
+      "/images/projects/ferry1.png",
+      "/images/projects/ferry2.png",
+      "/images/projects/ferry3.png",
+      "/images/projects/ferry4.png",
+      "/images/projects/ferry5.png",
+    ],
+  },
 ];
 
 const LatestWork = () => {
@@ -156,7 +226,7 @@ const LatestWork = () => {
                     {/* Hover Button */}
                     <button
                       onClick={() => setSelected(value)}
-                      className="absolute top-0 left-0 backdrop-blur-xs bg-primary/15 hidden group-hover:flex w-full h-full rounded-lg"
+                      className="absolute top-0 items-center justify-center left-0 backdrop-blur-xs bg-primary/15 hidden group-hover:flex w-full h-[350px] rounded-lg"
                     >
                       <span className="flex justify-center items-center p-5 w-full">
                         <svg
@@ -193,23 +263,22 @@ const LatestWork = () => {
                         </h5>
                       </button>
                       <a
-  href={value.link} // your external link here
-  target="_blank"
-  rel="noopener noreferrer"
-  className="cursor-pointer"
->
-  <div className="flex items-center">
-    <p className="font-medium text-[#080e29]">Visit</p>
-    {/* Your content inside */}
-    <Image
-      src={("/images/icon/right-arrow-icon.svg")}
-      alt="arrow"
-      width={30}
-      height={30}
-    />
-  </div>
-</a>
-
+                        href={value.link} // your external link here
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="cursor-pointer"
+                      >
+                        <div className="flex items-center">
+                          <p className="font-medium text-[#080e29]">Visit</p>
+                          {/* Your content inside */}
+                          <Image
+                            src={"/images/icon/right-arrow-icon.svg"}
+                            alt="arrow"
+                            width={30}
+                            height={30}
+                          />
+                        </div>
+                      </a>
                     </div>
                     <p className="text-[#080e29]"> Company: {value.company}</p>
                   </div>
@@ -222,11 +291,13 @@ const LatestWork = () => {
 
       {/* ---------------------- MODAL ---------------------- */}
       <Dialog open={!!selected} onOpenChange={() => setSelected(null)}>
-        <DialogContent className="sm:max-w-[800px] bg-softGray max-h-[90vh] overflow-y-auto">
-          <DialogClose className="flex w-full justify-between cursor-pointer">
-            <div />
-            <X color="black" />
-          </DialogClose>
+        <DialogContent showCloseButton={true} className="sm:max-w-[800px] bg-softGray max-h-[90vh] overflow-y-auto ">
+  <DialogClose asChild>
+    <button className="absolute right-4 top-4 p-1 rounded-md hover:bg-gray-200">
+      <X color="black" size={20} />
+    </button>
+  </DialogClose>
+
           {selected && (
             <div className="flex flex-col gap-4">
               <DialogHeader>
@@ -281,8 +352,8 @@ const LatestWork = () => {
                       </CarouselItem>
                     ))}
                   </CarouselContent>
-                  <CarouselPrevious className="b text-white bg-[#c726a4] hover:bg-orange-600 border-none -left-0" />
-                  <CarouselNext className="bg-orange-500 text-white hover:bg-orange-600 border-none -right-0" />
+                  <CarouselPrevious className="bg-[#080e29] text-white border-none -left-0" />
+                  <CarouselNext className=" text-white bg-[#080e29] border-none -right-0" />
                 </Carousel>
               </div>
             </div>
