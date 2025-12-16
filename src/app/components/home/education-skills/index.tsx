@@ -84,6 +84,7 @@ const EducationSkills = () => {
                           alt="icon"
                           width={70}
                           height={70}
+                          className="rounded-lg"
 
                         />
                         <p  data-aos="zoom-in"  className="text-black dark:text-white font-normal">{value?.name}</p>
