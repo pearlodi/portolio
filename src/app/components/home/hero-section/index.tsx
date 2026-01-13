@@ -72,7 +72,7 @@ const index = () => {
           <div className="hidden 2xl:hidden absolute right-0 top-0  h-auto w-1/2 lg:block 2xl:h-171.5 2xl:w-187.5">
             <ImageCarousel />
           </div>
-          <div className="hidden 2xl:block   h-[600px]">
+          <div className="hidden    h-[600px]">
             <ImageCarousel />
           </div>
         </div>
