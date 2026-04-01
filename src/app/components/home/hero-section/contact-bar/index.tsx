@@ -54,7 +54,7 @@ const ContactBar = () => {
                     <FaPhone  className="dark:text-[#c726a4] text-sm lg:text-[28px] "/>
                    
                     <h6 className="text-sm  xl:text-xl dark:text-white ">
-                     +234 903 724 8116
+                     +234 704 124 0169
                     </h6>
                   </div>
             </div>
